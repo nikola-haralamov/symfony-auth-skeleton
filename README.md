@@ -1,23 +1,25 @@
 # Symfony Auth Skeleton
 
+## Requirements
+```
+php 8.2 / npm 
+```
+
 ## Installation
 ```
- docker-compose up -d
+docker-compose up -d
 ```
-
 ```
- composer install
+composer install
 ```
-
 ```
- npm install
+npm install
 ```
 
 ## Start
 ```
- ./bin/symfony server:start
+npm run watch
 ```
-
 ```
- npm run dev
+./bin/symfony server:start
 ```
